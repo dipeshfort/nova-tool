@@ -1,0 +1,7 @@
+{
+  "HOME": "/",
+  "COUNTER": "/counter",
+  "DASHBOARD": "/dashboard",
+  "SERVICES_ADD": "/services/add",
+  "SERVICES": "/services"
+}

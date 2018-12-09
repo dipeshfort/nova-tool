@@ -1,0 +1,30 @@
+.container {
+  background: #ddd;
+  width: 100vw;
+}
+.logs {
+  user-select: text;
+  font-family: monaco, sans-serif;
+  background: #333;
+  color: #eee;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.logs > div > pre {
+  user-select: text;
+  font-family: monaco, sans-serif;
+  margin: 0;
+  padding: 0;
+  white-space: pre-line;
+  overflow-x: auto;
+}
+
+.logs a {
+  color: #00c000;
+}
+
+.logs > div {
+  display: flex;
+  align-items: flex-start;
+}

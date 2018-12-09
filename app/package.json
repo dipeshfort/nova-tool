@@ -1,0 +1,19 @@
+{
+  "name": "nova",
+  "productName": "Nova",
+  "version": "1.0.0",
+  "versionCode": "Angel",
+  "description": "Nodejs microservices development hub",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Dipesh Yadav",
+    "email": "maxdipesh@gmail.com",
+    "url": "https://github.com/dipeshy"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
